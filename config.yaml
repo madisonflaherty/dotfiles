@@ -6,11 +6,15 @@ dotfiles:
   f_zshrc:
     src: zshrc
     dst: ~/.zshrc
+  f_p10k.zsh:
+    src: p10k.zsh
+    dst: ~/.p10k.zsh
 profiles:
   home:
     dotfiles:
     - f_zshrc
+    - f_p10k.zsh
   work:
     dotfiles:
     - f_zshrc
-    
+    - f_p10k.zsh
